@@ -1,0 +1,8 @@
+create database livraria;
+
+create table livro (
+idlivro int not null auto_increment,
+titulo varchar(50),
+ano year,
+primary key(idlivro)
+);
